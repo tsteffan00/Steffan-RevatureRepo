@@ -1,0 +1,11 @@
+package firstPackage;
+
+public class newClass {
+	public void main(String[] args) {
+		
+	}
+	
+	public void SayThing() {
+		System.out.println("Test");
+	}
+}
