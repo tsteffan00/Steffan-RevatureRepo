@@ -1,0 +1,16 @@
+package ExceptionHomework;
+
+public class Driver {
+	public static void ThrowException() throws ExcepHomeworkClass {
+		throw new ExcepHomeworkClass("Oops.");
+	}
+		
+	public static void main(String[] args) {
+		try {
+			ThrowException();
+		}
+		catch (ExcepHomeworkClass e) {
+			System.out.println("Or have you?");
+		}
+	}
+}

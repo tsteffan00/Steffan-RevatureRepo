@@ -1,0 +1,9 @@
+package indivCoreJava;
+
+import java.util.Comparator;
+
+public class QuestionSeven implements Comparator<T> {
+	public static void comparatorSort() {
+		
+	}
+}

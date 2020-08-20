@@ -1,0 +1,7 @@
+package firstPackage;
+
+public class newClass {
+	public void SayThing();{
+		System.out.println("Test");
+	}
+}

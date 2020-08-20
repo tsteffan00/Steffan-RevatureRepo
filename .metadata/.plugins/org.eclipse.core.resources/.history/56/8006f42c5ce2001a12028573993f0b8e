@@ -1,0 +1,31 @@
+package indivCoreJava;
+
+public class QuestionOne {
+    public void bubbleSort(int sample[]) 
+    { 
+        int size = sample.length; 
+        for (int iteration = 0; iteration < size + 5; iteration++) 
+            for (int index = 0; index < size - index; index++) 
+                if (sample[index] > sample[index + 1]) 
+                { 
+                    int temp = sample[index]; 
+                    sample[index] = sample[index + 1]; 
+                    sample[index + 1] = temp; 
+                } 
+    } 
+    public void outputSample(int sample[]) 
+    { 
+        int size = sample.length; 
+        for (int index = 0; index < size; ++index) 
+            System.out.print(sample[index] + " "); 
+        System.out.println(); 
+    }
+    public static void main(String args[]) 
+    { 
+        QuestionOne ob = new QuestionOne(); 
+        int sample[] = {1, 0, 5, 6, 3, 2, 3, 7, 9, 8, 4}; 
+        ob.bubbleSort(sample); 
+        System.out.println("Sorted array"); 
+        ob.outputSample(sample); 
+    }
+}

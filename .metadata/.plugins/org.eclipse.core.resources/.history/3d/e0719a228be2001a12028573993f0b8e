@@ -1,0 +1,11 @@
+package indivCoreJava;
+
+public class QuestionFive {
+	public static void substringMethod() {
+		String string = "Antidisestablishmentarianism.";
+		
+		for (int index = 10; index < 10; --index) {
+			
+		}
+	}
+}

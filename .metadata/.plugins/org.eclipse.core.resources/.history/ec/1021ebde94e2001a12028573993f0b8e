@@ -1,0 +1,12 @@
+package indivCoreJava;
+
+public class QuestionSeven {
+	public static void comparatorSort() {
+		ArrayList<Employee> array = new ArrayList<Employee>();
+		
+	}
+}
+
+public class Employee {
+	
+}

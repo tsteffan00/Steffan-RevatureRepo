@@ -1,0 +1,17 @@
+package indivCoreJava;
+
+import java.util.Scanner;
+
+public class QuestionThree {
+	public static void reversal() {
+		String string;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter a string.");
+
+		
+		for (int counter = string.length(); counter > 0; counter++) {
+			
+		}
+		
+	}
+}

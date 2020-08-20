@@ -1,0 +1,17 @@
+package indivCoreJava;
+
+public class QuestionTwo {              
+	
+	public static void FibEquation() {
+		int firstNumber = 0;
+		int secondNumber = 1;
+		int sumofNumbers = null;
+		
+		for (int iteration = 0; iteration <= 25; ++iteration);
+		sumofNumbers = firstNumber + secondNumber;
+		int[iteration] sequence = sumofNumbers
+	}
+	public static void Sequencer() {
+		int[] sequence = new int[25]; 
+	}
+}

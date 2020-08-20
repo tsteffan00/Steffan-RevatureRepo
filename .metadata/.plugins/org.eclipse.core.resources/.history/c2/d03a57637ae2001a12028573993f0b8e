@@ -1,0 +1,20 @@
+package indivCoreJava;
+
+public class QuestionTwo {              
+	
+	public static void FibEquation() {
+		int firstNumber = 0;
+		int secondNumber = 1;
+		int sumOfNumbers = 0;
+		int[] sequence = new int[25]; 
+		
+		for (int i = 0; i <= 24; ++i) {
+			sumOfNumbers = firstNumber + secondNumber;
+			sequence[i] = sumOfNumbers;
+			firstNumber = secondNumber;
+			secondNumber = sumOfNumbers;					
+		}
+		
+		System.out.println(sequence.toString);
+	}	
+}

@@ -1,0 +1,6 @@
+package ChallengeArrayList;
+
+public class ChallengeArrayList {
+	T arr[];
+	
+}

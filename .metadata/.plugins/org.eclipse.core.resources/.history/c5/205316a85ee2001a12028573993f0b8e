@@ -1,0 +1,8 @@
+package indivCoreJava;
+
+public class QuestionTwo {              
+	
+	static int Sequencer(int n) {
+		
+	}
+}

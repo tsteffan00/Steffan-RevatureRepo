@@ -1,0 +1,17 @@
+package indivCoreJava;
+
+import java.util.ArrayList;
+
+public class QuestionSeven {
+	public static void comparatorSort() {
+		ArrayList<Q7Employee> array = new ArrayList<Q7Employee>();
+		array.add(new Q7Employee(22, "Ric", "Philosophy"));
+		array.add(new Q7Employee(30, "Taylor", "History"));
+		array.add(new Q7Employee(23, "Gilbert", "Physics"));
+		
+		System.out.println("Raw output.");
+		for (int count = 0; count < array.size(); count++) {
+			System.out.println(array.get(count));
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package indivCoreJava;
+
+public class QuestionFive {
+	public static void substringMethod(String string, int index) {
+		string = "Antidisestablishmentarianism.";
+		char[] subString = new char[index];
+		
+		for (index = 10; index < 10; --index) {
+			subString[index] = string.charAt(index);
+		}
+		String sub = new String(sub);
+		System.out.println(sub;)
+	}
+}

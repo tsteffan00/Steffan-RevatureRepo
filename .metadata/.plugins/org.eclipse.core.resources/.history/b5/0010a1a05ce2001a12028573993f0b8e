@@ -1,0 +1,8 @@
+package indivCoreJava;
+
+public class Driver {
+    public static void main(String args[]) {
+    	//Question One
+    	QuestionOne.primarySort();
+    }
+}

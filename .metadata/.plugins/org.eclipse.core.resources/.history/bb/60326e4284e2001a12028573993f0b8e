@@ -1,0 +1,15 @@
+package indivCoreJava;
+
+import java.util.Scanner;
+
+public class QuestionFour {
+	public static void factorialCalc() {
+		int integer
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter a number:");
+		integer = scan.nextLine();
+		scan.close();
+		
+		for ()
+	}
+}

@@ -1,0 +1,11 @@
+package indivCoreJava;
+
+public class QuestionSix {
+	public static void remainderTest(int firstNumber) {
+		if ((firstNumber / 2) * 2 == firstNumber) {
+			System.out.println("This number is even.");
+		} else {
+			System.out.println("This number is odd.");
+		}
+	}
+}

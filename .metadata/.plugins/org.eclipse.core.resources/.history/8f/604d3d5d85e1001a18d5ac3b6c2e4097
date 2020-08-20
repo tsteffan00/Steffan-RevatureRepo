@@ -1,0 +1,5 @@
+package ChallengeArrayList;
+
+public class SimpleArrayList<T> {
+
+}

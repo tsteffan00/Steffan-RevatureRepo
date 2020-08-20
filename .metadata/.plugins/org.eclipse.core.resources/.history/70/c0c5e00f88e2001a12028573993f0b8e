@@ -1,0 +1,13 @@
+package indivCoreJava;
+
+import java.util.Scanner;
+
+public class QuestionFour {
+	public static void factorialCalc() {
+		int facNum = 6;
+		for (int integer = 1; integer > facNum; integer++) {
+			facNum = facNum * integer;
+		}
+		System.out.println(facNum);
+	}
+}

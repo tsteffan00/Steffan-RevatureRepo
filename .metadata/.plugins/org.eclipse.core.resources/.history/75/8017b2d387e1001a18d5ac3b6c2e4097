@@ -1,0 +1,8 @@
+package ExceptionHomework;
+
+public class Driver {
+	public static void main(string[] args) throws ExcepHomeworkClass{
+		throw new ExcepHomeworkClass("Oops.");
+	}
+		
+}

@@ -1,0 +1,12 @@
+package indivCoreJava;
+
+public class QuestionFour {
+	public static void factorialCalc(int x) {
+		int facNum = 1;
+		for (int integer = 1; integer <= x; integer++) {
+			facNum = facNum * integer;
+		}
+		System.out.println("Factorial of " + x);
+		System.out.println(facNum);
+	}
+}

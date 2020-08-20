@@ -1,0 +1,26 @@
+package sPR;
+
+import java.util.Scanner;
+
+public class Driver {
+	
+	static String age;
+	static String name;
+	static String gender;
+	
+	public static void main(String[] args) {
+
+		
+		Scanner input = new Scanner(system.in);
+		System.out.println("Age?");
+		age = input.nextLine();
+		
+		System.out.println("Name?");
+		name = input.nextLine();
+		
+		System.out.println("Gender?");
+		gender = input.nextLine();
+	}
+	public static void makefile(String filename) throws IOException {
+		FileWriter fw = new FileWriter(filename);
+}

@@ -1,0 +1,12 @@
+package ChallengeArrayList;
+
+public class SimpleArrayList<T> {
+	private Object arr[];
+	int count = 0;
+	
+	SimpleArrayList() {
+		arr = new Object[10];
+	}
+	
+	Simple
+}
