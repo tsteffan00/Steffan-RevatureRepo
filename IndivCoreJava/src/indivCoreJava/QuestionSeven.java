@@ -14,7 +14,7 @@ public class QuestionSeven {
 			System.out.println(array.get(count));
 		}
 		
-		Collections.sort(array, new Q7SortAge()); //This line sorts by age.
+		Collections.sort(array, new Q7SortAge()); //This line calls the sort method of the array, using the Q7SortAge comparator class.
 		System.out.println("Sorted by Age");
 		for (int count = 0; count < array.size(); count++) {
 			System.out.println(array.get(count));
