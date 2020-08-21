@@ -1,0 +1,1 @@
+ERROR   2020-08-21 12:49:52,196 [main] challenges.LoggerTest  - Error message

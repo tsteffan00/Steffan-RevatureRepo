@@ -1,0 +1,6 @@
+ERROR   2020-08-21 12:50:52,447 [main] challenges.LoggerTest  - Error message
+ERROR   2020-08-21 12:51:42,783 [main] challenges.LoggerTest  - Error message
+ERROR   2020-08-21 12:51:50,236 [main] challenges.LoggerTest  - Error message
+ERROR   2020-08-21 12:51:57,350 [main] challenges.LoggerTest  - Error message
+ERROR   2020-08-21 12:52:29,246 [main] challenges.LoggerTest  - Error message
+ERROR   2020-08-21 12:52:57,399 [main] challenges.LoggerTest  - Error message
