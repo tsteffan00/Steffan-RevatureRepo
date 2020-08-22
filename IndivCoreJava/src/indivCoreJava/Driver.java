@@ -53,5 +53,28 @@ public class Driver {
     	System.out.println("Question Thirteen");
     	QuestionThirteen.pyramid();
     	System.out.println("\n");
+    	
+    	System.out.println("Question Fourteen");
+    	QuestionFourteen.switchCase();
+    	System.out.println("\n");
+    	
+    	System.out.println("Question Fifteen");
+    	QuestionFifteen.StdCalc();
+    	System.out.println("\n");
+    	
+    	System.out.println("Question Sixteen");
+    	QuestionSixteen.stringCounter(args);
+    	System.out.println("\n");   	
+    	
+    	System.out.println("Question Seventeen");
+    	QuestionSeventeen.simpleInterest();
+    	System.out.println("\n");
+    	
+    	System.out.println("Question Eighteen");
+    	QuestionEighteenConcSub q18obj = new QuestionEighteenConcSub();
+    	q18obj.caseCheck();
+    	q18obj.convertToUpper();
+    	q18obj.convertToInt();
+    	System.out.println("\n");
     }
 }

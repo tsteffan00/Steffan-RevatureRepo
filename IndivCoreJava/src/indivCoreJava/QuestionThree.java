@@ -9,7 +9,6 @@ public class QuestionThree {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a string.");
 		string = scan.nextLine();
-		scan.close();
 		
 		//For loop reads the character array backwards via decrementing counter.
 		for (int counter = string.length(); counter > 0; --counter) {

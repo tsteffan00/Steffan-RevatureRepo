@@ -9,5 +9,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="indivCoreJava.Driver"/>
 <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="IndivCoreJava"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="Domo arigato Mr Roboto"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="IndivCoreJava"/>
 </launchConfiguration>
