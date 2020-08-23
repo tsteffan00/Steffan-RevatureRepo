@@ -76,5 +76,17 @@ public class Driver {
     	q18obj.convertToUpper();
     	q18obj.convertToInt();
     	System.out.println("\n");
+    	
+    	System.out.println("Question Nineteen");
+    	QuestionNineteen q19obj = new QuestionNineteen();
+    	q19obj.arrayFiller();
+    	q19obj.arrayAdd();
+    	q19obj.primeChecker();
+    	System.out.println("\n");
+    	
+    	System.out.println("Question Twenty");
+    	QuestionTwenty q20obj = new QuestionTwenty();
+    	q20obj.fileRead();
+    	System.out.println("\n");
     }
 }

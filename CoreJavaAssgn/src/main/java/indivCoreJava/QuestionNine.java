@@ -17,11 +17,11 @@ public class QuestionNine {
 	}
 	
 	public static boolean isPrime(int counter) {
-		if (counter <= 1) {
+		if (counter < 2) {
 			return false;
 		}
 		
-		for (int i = 2; i <= (counter / 2); ++i) {
+		for (int i = 2; i <= counter / 2; ++i) {
 			if ((counter % i ) == 0) {
 				return false;
 			}
