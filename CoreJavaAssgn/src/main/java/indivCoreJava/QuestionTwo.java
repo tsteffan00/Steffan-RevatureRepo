@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class QuestionTwo {              
 	
 	//Method initializes variables and contains for loop that runs calculation.
-	public static void fibEquation() {
+	public static int[] fibEquation() {
 		int firstNumber = 0;
 		int secondNumber = 1;
 		int sumOfNumbers = 0;
@@ -21,5 +21,6 @@ public class QuestionTwo {
 		//Prints ordered array to user.
 		System.out.println("Fibonacci Sequence");
 		System.out.println(Arrays.toString(sequence));
+		return sequence;
 	}	
 }

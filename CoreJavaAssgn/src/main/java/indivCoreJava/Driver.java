@@ -3,7 +3,8 @@ package indivCoreJava;
 public class Driver {
     public static void main(String args[]) {
     	System.out.println("Question: One");
-    	QuestionOne.primarySort();
+    	QuestionOne q1obj = new QuestionOne();
+    	q1obj.primarySort();
     	System.out.println("\n");
     	
     	System.out.println("Question Two");
@@ -11,7 +12,7 @@ public class Driver {
     	System.out.println("\n");
     	
     	System.out.println("Question Three");
-    	QuestionThree.reversal();
+    	QuestionThree.reversal("Things");
     	System.out.println("\n");
 
     	System.out.println("Question Four");
