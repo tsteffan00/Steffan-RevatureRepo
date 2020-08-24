@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class QuestionSeven {
-	public static void comparatorSort() {
+	public static ArrayList<Q7Employee> comparatorSort() {
 		ArrayList<Q7Employee> array = new ArrayList<Q7Employee>();
 		array.add(new Q7Employee(22, "Ric", "Philosophy"));
 		array.add(new Q7Employee(30, "Taylor", "History"));
@@ -31,5 +31,6 @@ public class QuestionSeven {
 		for (int count = 0; count < array.size(); count++) {
 			System.out.println(array.get(count));
 		}
+		return array;
 	}
 }

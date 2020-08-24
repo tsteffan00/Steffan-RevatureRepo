@@ -1,27 +1,23 @@
 package indivCoreJava;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Scanner;
+import java.time.LocalDate;
+import java.util.Arrays;
 
 public class QuestionFourteen {
-	public static void switchCase() {
-		int numInput;
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please select '1', '2', or '3'.");
-		numInput = scanner.nextInt();
+	public static String switchCase(int numInput) {
 		
 		switch (numInput) {
 		case 1:
 			int number = 16;
 			double solved = Math.sqrt(number);
 			System.out.println("Square root of 16 is: " + solved);
-			break;
+			String strSolved = Double.toString(solved);
+			return strSolved;
 		case 2:
-			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyy");
-			LocalDateTime now = LocalDateTime.now();
-			System.out.println(dtf.format(now));
-			break;
+			LocalDate currentDate = LocalDate.now();
+			strSolved = currentDate.toString();
+			System.out.println(currentDate);
+			return strSolved;
 		case 3:
 			String string = "I am learning Core Java";
 			String strArray[] = string.split(" ");
@@ -29,9 +25,12 @@ public class QuestionFourteen {
 			for (int count = 0; count < strArray.length; count++) {
 				System.out.print(strArray[count] + " ");
 			}
-			break;
+			strSolved = Arrays.toString(strArray);
+			return strSolved;
 		default:
 			System.out.println("Error. Bad input.");
+			strSolved = "";
+			return strSolved;
 		}
 	}
 }

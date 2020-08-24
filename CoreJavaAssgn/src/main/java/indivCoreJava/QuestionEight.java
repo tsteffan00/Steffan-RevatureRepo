@@ -35,9 +35,10 @@ public class QuestionEight {
 		System.out.println(palindrome);
 	}
 	
-	public static void q8Run() {
+	public static ArrayList<String> q8Run() {
 		arrayFill();
 		palindromeCheck();
+		return palindrome;
 	}
 }
 	

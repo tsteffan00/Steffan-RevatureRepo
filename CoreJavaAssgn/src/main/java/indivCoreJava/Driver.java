@@ -40,7 +40,7 @@ public class Driver {
     	System.out.println("\n");
     	
     	System.out.println("Question Ten");
-    	QuestionTen.ternaryOperation();
+    	QuestionTen.ternaryOperation(10, 20);
     	System.out.println("\n");
     	
     	System.out.println("Question Eleven");
@@ -56,7 +56,9 @@ public class Driver {
     	System.out.println("\n");
     	
     	System.out.println("Question Fourteen");
-    	QuestionFourteen.switchCase();
+    	QuestionFourteen.switchCase(1);
+    	QuestionFourteen.switchCase(2);
+    	QuestionFourteen.switchCase(3);
     	System.out.println("\n");
     	
     	System.out.println("Question Fifteen");

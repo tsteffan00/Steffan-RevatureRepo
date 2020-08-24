@@ -1,22 +1,17 @@
 package indivCoreJava;
 
-import java.util.Arrays;
-
-//import java.util.Scanner;
-
 public class QuestionThree {
 	//Method reads input.
-	public static Character[] reversal(String string) {
-//		Scanner scan = new Scanner(System.in);
-//		System.out.println("Please enter a string.");
-//		string = scan.nextLine();
-		Character[] revString = {};
-		
+	public static char[] reversal(String string) {
+		char[] output = new char[6];
+		int invertCounter = 0;
+		System.out.println(string);
 		//For loop reads the character array backwards via decrementing counter.
+		//While assigning each character to the charArray in ascending order.
 		for (int counter = string.length(); counter > 0; --counter) {
-			revString[counter] = string.charAt(counter - 1);
+			output[invertCounter++] = string.charAt(counter - 1);
+			System.out.print(string.charAt(counter - 1));
 		}
-		System.out.print(Arrays.toString(revString));
-		return revString;
+		return output;
 	}
 }
